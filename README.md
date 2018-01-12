@@ -2,4 +2,9 @@
 # Language: R
 # Input: CSV (network)
 # Output: CSV (distances)
-PluMA plugin that runs the Binomial Deviance  algorithm (McArdle and Anderson, 2001) for multivariate analysis
+
+PluMA plugin that computes a dissimilariy index using the Binomial Deviance algorithm (McArdle and Anderson, 2001), useful in community ecology.
+
+This plugin takes an input CSV file with samples as rows and normalized abundances of all community members as columns.
+It will produce an output CSV file with samples as both rows and columns, with entry (i, j) the measure of dissimilarity between sample i and sample j.
+Note this matrix is symmetric.
