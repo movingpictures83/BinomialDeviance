@@ -2,6 +2,7 @@
 # Language: R
 # Input: CSV (network)
 # Output: CSV (distances)
+# Tested with: PluMA 1.0, R 3.2.5
 
 PluMA plugin that computes a dissimilariy index using the Binomial Deviance algorithm (McArdle and Anderson, 2001), useful in community ecology.
 
