@@ -1,0 +1,2 @@
+Prefix plugins/BinomialDeviance/example/
+Plugin BinomialDeviance inputfile abundN.csv outputfile abundN.binomial.csv
